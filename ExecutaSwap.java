@@ -1,9 +1,6 @@
-package br.com.devmedia.algoritmos;
-
 import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
-
 import javax.swing.JOptionPane;
 
 public class ExecutaSwap {
@@ -19,15 +16,14 @@ public class ExecutaSwap {
 		System.out.println("Lista de Elementos: ");
 		System.out.println(lista);
 		
-		int posicao1 = Integer.parseInt(JOptionPane.showInputDialog("Digite a primeira poisição: "));
-		int posicao2 = Integer.parseInt(JOptionPane.showInputDialog("Digite a segunda poisição: "));
+		int posicao1 = Integer.parseInt(JOptionPane.showInputDialog("Digite a primeira poisiÃ§Ã£o: "));
+		int posicao2 = Integer.parseInt(JOptionPane.showInputDialog("Digite a segunda poisiÃ§Ã£o: "));
 		
 		System.out.println("---------------------------------------------");
-		System.out.println("Lista de elementos dps da troca de posições: ");
+		System.out.println("Lista de elementos dps da troca de posiÃ§Ãµes: ");
 		Collections.swap(lista, posicao1, posicao2);
 		for(Integer numero: lista){
 			System.out.println(numero);
 		}
 	}
-
 }
