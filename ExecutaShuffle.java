@@ -1,9 +1,6 @@
-package br.com.devmedia.algoritmos;
-
 import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
-
 
 public class ExecutaShuffle {
 
@@ -15,15 +12,14 @@ public class ExecutaShuffle {
 		lista.add(30);
 		lista.add(82);
 		
-		
 		System.out.println("Lista na Ordem normal: ");
 		System.out.println(lista);
 		System.out.println("-----------------------------------------------------");
-		Collections.shuffle(lista);
-		System.out.println("Lista Após o uso do Shuffle, que embaralha os itens: ");
-		System.out.println(lista);
 		
-
+		Collections.shuffle(lista);
+		System.out.println("Lista ApÃ³s o uso do Shuffle, que embaralha os itens: ");
+		System.out.println(lista);
+		System.out.println("-----------------------------------------------------");
+		
 	}
-
 }
