@@ -1,5 +1,3 @@
-package br.com.devmedia.algoritmos;
-
 import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
@@ -32,8 +30,8 @@ public class ExecutaAlgoritmosLinkedList {
 		
 		System.out.println("----------------------------");
 		
-		System.out.println("O valor minimo da lista È: "+Collections.min(lista));
-		System.out.println("O valor m·ximo da lista È: "+Collections.max(lista));
+		System.out.println("O valor minimo da lista √©: "+Collections.min(lista));
+		System.out.println("O valor m√°ximo da lista √©: "+Collections.max(lista));
 		
 	}
 }
