@@ -1,5 +1,3 @@
-package br.com.devmedia.collections;
-
 import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.Set;
@@ -18,7 +16,8 @@ public class ExecutaSet {
 		for(String nome :nomes1){
 			System.out.println(nome);
 		}
-		System.out.println("\nElementos mostrados em ordem aleatória.");
+		
+		System.out.println("\nElementos mostrados em ordem aleatÃ³ria.");
 		System.out.println("-----------------------------------------");
 		
 		Set<String> nomes2 = new LinkedHashSet<String>();
@@ -31,7 +30,8 @@ public class ExecutaSet {
 		for(String nome :nomes2){
 			System.out.println(nome);
 		}
-		System.out.println("\nElementos mostrados em ordem de inserção.");
+		
+		System.out.println("\nElementos mostrados em ordem de inserÃ§Ã£o.");
 		System.out.println("-------------------------------------------");
 		
 		Set<String> nomes3 = new TreeSet<String>();
@@ -44,6 +44,7 @@ public class ExecutaSet {
 		for(String nome :nomes3){
 			System.out.println(nome);
 		}
+		
 		System.out.println("\nElementos mostrados em ordem alfabetica.");
 		System.out.println("------------------------------------------");
 	}
