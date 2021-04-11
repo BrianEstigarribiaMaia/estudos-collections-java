@@ -1,5 +1,3 @@
-package br.com.devmedia.algoritmos;
-
 import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
@@ -20,10 +18,10 @@ public class ExecutaBuscaBinaria {
 		Collections.sort(lista);
 		System.out.println(lista);
 		
-		int valor = Integer.parseInt(JOptionPane.showInputDialog("Digite o valor para a busca bin·ria:"));
+		int valor = Integer.parseInt(JOptionPane.showInputDialog("Digite o valor para a busca bin√°ria:"));
 		int indice = Collections.binarySearch(lista, valor);
 		
-		System.out.println("O valor buscado est· na posiÁ„o: "+indice);
+		System.out.println("O valor buscado est√° na posi√ß√£o: "+indice);
 
 	}
 
