@@ -1,5 +1,3 @@
-package br.com.devmedia.collections;
-
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
@@ -18,7 +16,6 @@ public class ExecutaList {
 			System.out.println(nome);
 		}
 		
-	
 		List<String> nomes2 = new LinkedList<String>();
 		nomes2.add("John");
 		nomes2.add("Dani");
@@ -30,7 +27,7 @@ public class ExecutaList {
 			System.out.println(nome1);
 		}
 		
-		System.out.println("\nElementos aparecem na ordem de inserção em ambos os casos.");
+		System.out.println("\nElementos aparecem na ordem de inserÃ§Ã£o em ambos os casos.");
 		
 	}
 }
