@@ -1,9 +1,6 @@
-package br.com.devmedia.algoritmos;
-
 import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
-
 import javax.swing.JOptionPane;
 
 public class ExecutaRotate {
@@ -16,16 +13,13 @@ public class ExecutaRotate {
 		lista.add(30);
 		lista.add(82);
 		
-		
 		System.out.println("Lista na Ordem normal: ");
 		System.out.println(lista);
 		
-		int posicoes = Integer.parseInt(JOptionPane.showInputDialog("Digite o numero de posições de deslocamento da lista:"));
+		int posicoes = Integer.parseInt(JOptionPane.showInputDialog("Digite o numero de posiÃ§Ãµes de deslocamento da lista:"));
 		Collections.rotate(lista, posicoes);
 		System.out.println("Lista Circular: ");
 		System.out.println(lista);
 		
-
 	}
-
 }
